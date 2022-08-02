@@ -1,0 +1,7 @@
+---
+Name: google_maps_embed
+After: "#coreoembed"
+---
+SilverStripe\View\Embed\EmbedContainer:
+  dependencies:
+    embed: '%$WebbuildersGroup\GoogleMapsEmbed\Embed'
