@@ -18,7 +18,7 @@ class Code extends Detector
      */
     public function detect(): ?EmbedCode
     {
-        $key = (Embed::config()->api_key ? Injector::inst()->convertServiceProperty(Embed::config()->api_key) : GoogleMapField::config()->default_options['api_key']);
+        $key = (Embed::config()->api_key ? Injector::inst()->convertServiceProperty(Embed::config()->api_key) : (class_exists(GoogleMapField::class) ? GoogleMapField::config()->default_options['api_key'] : ''));
         $mode = $this->getMode();
         $uri = $this->extractor->getUri();
 
