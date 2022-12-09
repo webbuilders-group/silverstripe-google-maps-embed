@@ -41,7 +41,7 @@ class Code extends Detector
 
         $width = (array_key_exists('min_image_width', $settings) ? $settings['min_image_width'] : 600);
         $height = (array_key_exists('min_image_height', $settings) ? $settings['min_image_height'] : 400);
-        $styles = 'width:' . $width . 'px;height:' . $height . 'px;border:0;overflow:hidden;';
+        $styles = 'border:0;overflow:hidden;';
 
         switch ($mode) {
             case 'view':
@@ -60,6 +60,8 @@ class Code extends Detector
                                 ])
                             ),
                         'frameborder' => 0,
+                        'width' => $width,
+                        'height' => $height,
                         'style' => $styles,
                         'allowTransparency' => 'true',
                     ]
@@ -84,6 +86,8 @@ class Code extends Detector
                                 ])
                             ),
                         'frameborder' => 0,
+                        'width' => $width,
+                        'height' => $height,
                         'style' => $styles,
                         'allowTransparency' => 'true',
                     ]
@@ -104,6 +108,8 @@ class Code extends Detector
                                 ])
                             ),
                         'frameborder' => 0,
+                        'width' => $width,
+                        'height' => $height,
                         'style' => $styles,
                         'allowTransparency' => 'true',
                     ]
@@ -124,6 +130,8 @@ class Code extends Detector
                                 ])
                             ),
                         'frameborder' => 0,
+                        'width' => $width,
+                        'height' => $height,
                         'style' => $styles,
                         'allowTransparency' => 'true',
                     ]
