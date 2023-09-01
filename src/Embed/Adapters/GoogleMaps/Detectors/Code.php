@@ -103,7 +103,7 @@ class Code extends Detector
                             ->withPath('/maps/embed/v1/' . $this->mode)
                             ->withQuery(
                                 http_build_query([
-                                    'q' => $this->getPathSegment(2),
+                                    'q' => urldecode($this->getPathSegment(2)),
                                     'key' => $key,
                                 ])
                             ),
