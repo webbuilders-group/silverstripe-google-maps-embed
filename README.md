@@ -6,8 +6,8 @@ Adds support for embedding Google Maps in Silverstripe via oEmbed
 * Ed Chipman ([UndefinedOffset](https://github.com/UndefinedOffset))
 
 ## Requirements
-* [Silverstripe Framework](https://github.com/silverstripe/silverstripe-framework) 4.11+
-* [embed/embed](https://github.com/oscarotero/Embed) 4.0+
+* [Silverstripe Framework](https://github.com/silverstripe/silverstripe-framework) ~4.11|^5|^6
+* [embed/embed](https://github.com/oscarotero/Embed) ^4
 
 
 ## Installation

@@ -23,7 +23,7 @@ class Embed extends CoreEmbed
      * @param Crawler $crawler Crawler instance
      * @param ExtractorFactory $extractorFactory Extractor Factory instance
      */
-    public function __construct(Crawler $crawler = null, ExtractorFactory $extractorFactory = null)
+    public function __construct(?Crawler $crawler = null, ?ExtractorFactory $extractorFactory = null)
     {
         parent::__construct($crawler, $extractorFactory);
 
