@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.2.0](https://github.com/webbuilders-group/silverstripe-google-maps-embed/tree/1.2.0) (2025-06-27)
+[Full Changelog](https://github.com/webbuilders-group/silverstripe-google-maps-embed/compare/1.1.1...1.2.0)
+
 ## [1.1.1](https://github.com/webbuilders-group/silverstripe-google-maps-embed/tree/1.1.1) (2023-09-01)
 [Full Changelog](https://github.com/webbuilders-group/silverstripe-google-maps-embed/compare/1.1.0...1.1.1)
 
